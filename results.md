@@ -2,7 +2,7 @@
 
 | Software  | Version | Files Verified | Functions Verified | Counterexamples | Overall time | Peak Memory Usage |
 |-----------|---------|----------------|--------------------|-----------------|--------------|-------------------|
-| VLC       |  3.0.18 | 1171           | 13709              | 72                |   1033.79s           |  20.09 MB          |
+| VLC       |         |                |                    |                 |              |                   |
 | VIM       |         |                |                    |                 |              |                   |
 | TMUX      |         |                |                    |                 |              |                   |
 | RUFUS     |         |                |                    |                 |              |                   |
