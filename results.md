@@ -3,7 +3,7 @@
 | Software  | Version | Files Verified | Functions Verified | Counterexamples | Overall time | Peak Memory Usage |
 |-----------|---------|----------------|--------------------|-----------------|--------------|-------------------|
 | VLC       |  3.0.18 | 1171           | 13709              | 72                |   1033.79s         |  20.09 MB          |
-| VIM       |         |                |                    |                 |              |                   |
+| VIM       |  9.0.1672    | 188       |  9611              | 110               |              |  554.56s                 | 39.83MB
 | TMUX      |  3.3a   | 179            | 2168               | 1782                |  52218.45s       | 43.12MB            |
 | RUFUS     |         |                |                    |                 |              |                   |
 | OpenSSH   |         |                |                    |                 |              |                   |
