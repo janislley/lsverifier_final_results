@@ -13,7 +13,7 @@ Dataset analysis performed by LSVerifier tool.
 | OpenSSH   | 9.3        | 290       | 3183         | 338       | 873.27s     | 42.58MB       |
 | Cmake     | 3.27.0-rc4 | 1516      | 11279        | 552       | 934.21s     | 37.07MB       |
 | Netdata   |            |           |              |           |             |               |
-| Wireshark | 4.0.6      | 2330      | 121567       | 2135      | 59952.39s   | 135.44MB      |
+| Wireshark | 4.0.6      | 2330      | 121567       | 2135      | 59952.39s   | 391.44MB      |
 | OpenSSL   | 3.1.1      | 1575      | 17168        | 3140      | 6046.63s    | 53.34MB       |
 | Putty     | 0.78       | 403       | 5310         | 2472      | 66210.32s   | 58.54MB       |   
 
