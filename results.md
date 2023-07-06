@@ -43,5 +43,4 @@ Item description:
 * IDO: Invalidated Dynamic Object
 * NP: NULL Pointer
 * DZ: Division by Zero
-* AOOB: Access to Object Out of Bounds
 * AF: Assertion Failure
