@@ -1,0 +1,13 @@
+deps/jemalloc/include/jemalloc/internal/
+src/
+deps/lua/src/
+deps/jemalloc/test/include/test/
+deps/jemalloc/test/unit/
+deps/jemalloc/include/msvc_compat/C99/
+deps/jemalloc/msvc/test_threads/
+deps/hiredis/
+deps/hiredis/examples/
+deps/hiredis/adapters/
+deps/hdr_histogram/
+deps/fpconv/
+deps/linenoise/

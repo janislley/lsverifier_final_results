@@ -1,0 +1,101 @@
+file_name,functionVerified,function_name,function_line,error
+ src/lzf_c.c, lzf_compress, lzf_compress , 149 ,dereference failure: invalid pointer
+ src/localtime.c, nolocks_localtime, nolocks_localtime , 69 ,dereference failure: invalid pointer
+ src/adlist.c, listAddNodeHead, listLinkNodeHead , 110 ,dereference failure: invalid pointer
+ src/adlist.c, listAddNodeTail, listLinkNodeTail , 143 ,dereference failure: invalid pointer
+ src/adlist.c, listCreate, listCreate , 48 ,dereference failure: invalid pointer
+ src/adlist.c, listDelNode, listDelNode , 185 ,dereference failure: invalid pointer
+ src/adlist.c, listDup, listDup , 284 ,dereference failure: invalid pointer
+ src/adlist.c, listEmpty, listEmpty , 62 ,dereference failure: invalid pointer
+ src/adlist.c, listGetIterator, listGetIterator , 220 ,dereference failure: invalid pointer
+ src/adlist.c, listIndex, listIndex , 351 ,dereference failure: invalid pointer
+ src/adlist.c, listInitNode, listInitNode , 414 ,dereference failure: invalid pointer
+ src/adlist.c, listInsertNode, listInsertNode , 172 ,dereference failure: invalid pointer
+ src/adlist.c, listJoin, listJoin , 395 ,dereference failure: invalid pointer
+ src/adlist.c, listNext, listNext , 257 ,dereference failure: invalid pointer
+ src/adlist.c, listRewind, listRewind , 232 ,dereference failure: invalid pointer
+ src/adlist.c, listRewindTail, listRewindTail , 237 ,dereference failure: invalid pointer
+ src/adlist.c, listRotateHeadToTail, listRotateHeadToTail , 384 ,dereference failure: invalid pointer
+ src/adlist.c, listRotateTailToHead, listRotateTailToHead , 369 ,dereference failure: invalid pointer
+ src/adlist.c, listUnlinkNode, listUnlinkNode , 205 ,dereference failure: invalid pointer
+ src/setcpuaffinity.c, next_num, next_num , 64 ,dereference failure: invalid pointer
+ src/setcpuaffinity.c, next_token, strchr , 127 ,dereference failure: invalid pointer
+ src/strl.c, redis_strlcat, redis_strlcat , 71 ,dereference failure: invalid pointer
+ src/strl.c, redis_strlcpy, redis_strlcpy , 32 ,dereference failure: invalid pointer
+ src/setproctitle.c, spt_copyargs, spt_copyargs , 168 ,dereference failure: invalid pointer
+ src/setproctitle.c, spt_copyenv, memcpy , 264 ,dereference failure: invalid pointer
+ src/lzf_d.c, lzf_decompress, lzf_decompress , 38 ,dereference failure: invalid pointer
+ utils/corrupt_rdb.c, main, main , 24 ,dereference failure: array bounds violated
+ deps/lua/src/loslib.c, os_getenv, getenv , 66 ,dereference failure: NULL pointer
+ deps/lua/src/loslib.c, os_pushresult, strerror , 108 ,array bounds violated: array `sys_errlist' lower bound
+ deps/lua/src/loslib.c, os_setlocale, os_setlocale , 211 ,array bounds violated: array `cat' lower bound
+ deps/lua/src/liolib.c, aux_close, aux_close , 130 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, createstdfile, newfile , 88 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, f_flush, tofile , 74 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, f_seek, f_seek , 448 ,array bounds violated: array `mode' upper bound
+ deps/lua/src/liolib.c, f_setvbuf, f_setvbuf , 464 ,array bounds violated: array `mode' upper bound
+ deps/lua/src/liolib.c, g_read, fread , 77 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, g_write, pushresult , 31 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, getiofile, getiofile , 195 ,array bounds violated: array `fnames' upper bound
+ deps/lua/src/liolib.c, io_flush, getiofile , 193 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, io_readline, io_readline , 392 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, io_tostring, io_tostring , 152 ,dereference failure: invalid pointer
+ deps/lua/src/liolib.c, read_line, strlen , 78 ,dereference failure: invalid pointer
+ deps/lua/src/loadlib.c, findfile, pushnexttemplate , 342 ,dereference failure: invalid pointer
+ deps/lua/src/loadlib.c, gctm, gctm , 288 ,dereference failure: invalid pointer
+ deps/lua/src/loadlib.c, ll_loadfunc, ll_loadfunc , 296 ,dereference failure: invalid pointer
+ deps/lua/src/loadlib.c, ll_register, ll_register , 271 ,dereference failure: invalid pointer
+ deps/lua/src/loadlib.c, pushnexttemplate, pushnexttemplate , 343 ,dereference failure: invalid pointer
+ deps/lua/src/strbuf.c, debug_stats, debug_stats , 96 ,dereference failure: invalid pointer
+ deps/lua/src/strbuf.c, strbuf_free, strbuf_free , 109 ,dereference failure: invalid pointer freed
+ deps/lua/src/strbuf.c, strbuf_free_to_string, strbuf_ensure_null , 142 ,dereference failure: invalid pointer
+ deps/lua/src/lbaselib.c, generic_reader, generic_reader , 303 ,dereference failure: invalid pointer
+ deps/lua/src/lbaselib.c, luaB_collectgarbage, luaB_collectgarbage , 200 ,array bounds violated: array `optsnum' lower bound
+ deps/lua/src/ldblib.c, db_errorfb, db_errorfb , 357 ,dereference failure: invalid pointer
+ deps/lua/src/ldblib.c, getthread, getthread , 82 ,dereference failure: invalid pointer
+ deps/lua/src/ldblib.c, hookf, hookf , 215 ,array bounds violated: array `hooknames' lower bound
+ deps/lua/src/lauxlib.c, adjuststack, adjuststack , 411 ,dereference failure: invalid pointer
+ deps/lua/src/lauxlib.c, emptybuffer, emptybuffer , 399 ,dereference failure: invalid pointer
+ deps/lua/src/lauxlib.c, getF, getF , 534 ,dereference failure: invalid pointer
+ deps/lua/src/lauxlib.c, getS, getS , 602 ,dereference failure: invalid pointer
+ deps/lua/src/lauxlib.c, l_alloc, l_alloc , 631 ,dereference failure: invalid pointer freed
+ deps/lua/src/lauxlib.c, luaL_buffinit, luaL_buffinit , 473 ,dereference failure: invalid pointer
+ deps/lua/src/lauxlib.c, luaL_findtable, luaL_findtable , 379 ,dereference failure: NULL pointer
+ deps/lua/src/lstrlib.c, add_value, add_value , 614 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, addintlen, addintlen , 752 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, check_capture, check_capture , 189 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, classend, classend , 213 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, gmatch_aux, match , 418 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, lmemfind, memcmp , 310 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, matchbalance, matchbalance , 290 ,Same object violation
+ deps/lua/src/lstrlib.c, matchbracketclass, matchbracketclass , 251 ,Same object violation
+ deps/lua/src/lstrlib.c, max_expand, max_expand , 304 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, push_captures, push_captures , 487 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, push_onecapture, push_onecapture , 468 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, scanformat, strncpy , 45 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, start_capture, start_capture , 332 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, str_byte, str_byte , 120 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, str_find, lmemfind , 452 ,dereference failure: invalid pointer
+ deps/lua/src/lstrlib.c, str_gsub, str_gsub , 650 ,dereference failure: invalid pointer
+ deps/lua/src/lua.c, main, main , 382 ,dereference failure: array bounds violated
+ deps/lua/src/lua.c, collectargs, collectargs , 282 ,dereference failure: invalid pointer
+ deps/lua/src/lua.c, handle_script, strcmp , 92 ,dereference failure: invalid pointer
+ deps/lua/src/lua.c, runargs, runargs , 300 ,dereference failure: invalid pointer
+ deps/linenoise/example.c, main, main , 25 ,dereference failure: array bounds violated
+ deps/linenoise/example.c, completion, completion , 8 ,dereference failure: invalid pointer
+ deps/linenoise/example.c, hints, hints , 16 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, abFree, abFree ,noise.c line 488 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, abInit, abInit ,noise.c line 474 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, completeLine, completeLine ,noise.c line 372 ,dereference failure: NULL pointer
+ deps/linenoise/linenoise.c, freeCompletions, freeCompletions ,noise.c line 355 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEdit, linenoiseEdit ,noise.c line 816 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditBackspace, linenoiseEditBackspace ,noise.c line 764 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditDeletePrevWord, linenoiseEditDeletePrevWord ,noise.c line 776 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditInsert, linenoiseEditInsert ,noise.c line 667 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditMoveEnd, linenoiseEditMoveEnd ,noise.c line 719 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditMoveHome, linenoiseEditMoveHome ,noise.c line 711 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditMoveLeft, linenoiseEditMoveLeft ,noise.c line 695 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseEditMoveRight, linenoiseEditMoveRight ,noise.c line 703 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, linenoiseFree, linenoiseFree ,noise.c line 1101 ,dereference failure: invalid pointer freed
+ deps/linenoise/linenoise.c, linenoiseNoTTY, linenoiseNoTTY ,noise.c line 1058 ,dereference failure: invalid pointer
+ deps/linenoise/linenoise.c, refreshLine, refreshSingleLine ,noise.c line 523 ,dereference failure: invalid pointer
