@@ -17,7 +17,7 @@ Dataset analysis performed by LSVerifier tool.
 | Wireshark | 4.0.6      | 2330      | 121567       | 2141      | 59952.39s   | 391.44MB      |
 | OpenSSL   | 3.1.1      | 1575      | 17168        | 3140      | 6046.63s    | 53.34MB       |
 | Putty     | 0.78       | 403       | 5310         | 2472      | 66210.32s   | 58.54MB       | 
-| SQlite    | 3.42.0     | 340       | 8911         | 3265      | 2493.75s    | 33.22MB       |
+| SQLite    | 3.42.0     | 340       | 8911         | 3265      | 2493.75s    | 33.22MB       |
 | Redis     | 7.0.11     | 418       | 8211         | 187       | 727.76s     | 46.57MB       |
   
 
@@ -35,7 +35,7 @@ Dataset analysis performed by LSVerifier tool.
 | Wireshark | 1940  | 20    | 12    | 17    | 35    | 2     | 0     | 77    | 5     | 27    | 6     |
 | OpenSSL   | 2753  | 77    | 98    | 22    | 10    | 7     | 2     | 131   | 11    | 29    | 0     |
 | Putty     | 1996  | 8     | 25    | 26    | 4     | 6     | 0     | 56    | 14    | 337   | 0     |
-| SQlite    | 2254  | 36    | 15    | 37    | 16    | 9     | 0     | 540   | 29    | 326   | 3     |
+| SQLite    | 2254  | 36    | 15    | 37    | 16    | 9     | 0     | 540   | 29    | 326   | 3     |
 | Redis     | 150   | 3     | 9     | 3     | 11    | 3     | 0     | 7     | 0     | 0     | 1     |
 
 Item description:
@@ -65,6 +65,6 @@ Item description:
 * Wireshark: https://github.com/wireshark/wireshark
 * OpenSSL: https://github.com/openssl/openssl
 * Putty: https://github.com/github/putty
-* SQlite: https://github.com/sqlite/sqlite
+* SQLite: https://github.com/sqlite/sqlite
 * Redis: https://github.com/redis/
 
