@@ -21,7 +21,7 @@ Dataset analysis performed by LSVerifier tool.
 | Redis     | 7.0.11     | 418     | 170673  | 2555  | 8211   | 187  | 727.76s   | 46.57MB  |
   
 
-## Propertie violated
+## Properties violated
 
 | Software  | IP    | ABV   | ALB   | AUB   | SOV   | IPF   | IDO   | NP    | DZ    | AF    | AOOB  |
 |-----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
