@@ -2,6 +2,11 @@
 
 Dataset analysis performed by LSVerifier tool.
 
+## Command to verify
+
+~~~
+lsverifier -r -v -f -e "--unwind 1 --no-unwinding-assertions" -i dep.txt
+~~~
 
 ## Verification results
 
